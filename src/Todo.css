@@ -1,0 +1,41 @@
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.task-form button {
+  width: 6.8125rem;
+  height: 3.5rem;
+  background-color: #2f80ed;
+  border-radius: 12px;
+  color: white;
+  border: none;
+}
+.task-form input[type="text"] {
+  border-radius: 12px;
+  border: 1px solid #bdbdbd;
+  height: 3.5rem;
+  width: 29.75rem;
+}
+
+.checkbox-container {
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  margin: 1.6875rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: #000;
+}
+svg {
+  color: lightgray;
+  align-self: center;
+}
+
+.completed-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10rem;
+}
