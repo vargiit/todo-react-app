@@ -38,4 +38,16 @@ svg {
   display: flex;
   justify-content: space-between;
   padding-right: 10rem;
+  height: 41px;
+  align-items: center;
+}
+
+.delete-all {
+  padding: 0.5rem;
+  background-color: #eb5757;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  float: right;
 }

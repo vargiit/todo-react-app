@@ -11,9 +11,9 @@ function Todo(props) {
     setTaskList(taskList.filter((task) => !(id === task.id)));
   };
 
-  // const handleDeleteAll = () => {
-  //   setTaskList(taskList.filter((task) => !task.checked));
-  // };
+  const handleDeleteAll = () => {
+    setTaskList(taskList.filter((task) => !task.checked));
+  };
   const addTask = (e) => {
     e.preventDefault();
     if (task === "") {
@@ -83,6 +83,14 @@ function Todo(props) {
             </div>
           ) : null
         )}
+      <button
+        className={
+          props.pageName === "Completed" ? "delete-all" : "display-none"
+        }
+        onClick={handleDeleteAll}
+      >
+        Delete all
+      </button>
     </div>
   );
 }
